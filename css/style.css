@@ -84,9 +84,10 @@ a:hover {
 
 .bg-image {
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-position: center center;
+  height: max-content;
 }
 
 .overlay-mf {
@@ -148,14 +149,12 @@ a:hover {
 }
 
 .title-a {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.subtitle-a {
-  color: #4e4e4e;
-}
+
 
 .line-mf {
   width: 40px;
@@ -773,6 +772,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  padding: 20px;
 }
 
 .work-box:hover img {
